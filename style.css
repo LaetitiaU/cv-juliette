@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
+
 body {
     font-family: 'Raleway', sans-serif;
     color: rgb(0, 59, 111);
     background-color: whitesmoke;
+    border: 1px solid rgb(0, 59, 111);
+    width:770px;
+    height:990px;
+    margin:auto;
 }
 
 .partie1 {
@@ -20,8 +25,7 @@ h2 {
 }
 
 .presentation {
-    margin:40px;
-    padding:10px;
+    margin-left:70px;
     text-align: center;
     font-size: 16px;
 }
@@ -78,25 +82,38 @@ h2 {
     justify-content: center;
 }
 
+.texteprojet {
+    text-align: center;
+    margin:auto;
+    font-weight: bold;
+    
+}
+
+
 .projets {
     text-align: center;
     font-weight: bold;
+    margin:-40px;
 }
 
 .projet1 img {
-    width:250px;
+    width:200px;
     height:200px;
     padding: 10px;
 }
 
 .projet2 img {
-    width: 250px;
+    width: 200px;
     height: 200px;
     padding: 10px;
 }
 
 .projet3 img {
-    width:250px;
+    width:200px;
     height:200px;
     padding: 10px;
+}
+
+@media screen and (max-width:660px) {
+    
 }
